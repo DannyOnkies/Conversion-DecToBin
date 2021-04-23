@@ -5,3 +5,5 @@ Converting a decimal number to a binary number can be accomplished by dividing t
 using the remainder as the rightmost bit of the binary number and continuing to divide the quotient by 2 to the end.
 
 ![Image](https://github.com/DannyOnkies/Conversion-DecToBin/blob/main/table.JPG)
+
+The integer number (44) equals the binary number (101100). 
