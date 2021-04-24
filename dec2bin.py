@@ -18,13 +18,7 @@ def dec_bin(n):
         # ne mancano per arrivare a 8
         for i in range(8 - len(b)):
             b = "0" + b
-    # inserisco uno spazio tra i due gruppi di 4 cifre
-    if len(b) == 8:
-        val_form = b[:4] + ' ' + b[4:]
-    else:
-        val_form = b
-    print(val_form)
-
+    print(b)
 
 c = int(input("Inserisci un numero decimale: "))
 dec_bin(c)
